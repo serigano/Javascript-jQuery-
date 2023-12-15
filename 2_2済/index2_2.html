@@ -6,8 +6,10 @@
   <link rel="stylesheet" type="text/css" href="base2_2.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>  <script>
   $(function(){
-    <div class="button1">OK</div>
-    
+    $('.button').on('click', function() {
+    $('.button').css('background-color','');
+    $(this).css('background-color','red');
+  });
   });
   </script>
 </head>
